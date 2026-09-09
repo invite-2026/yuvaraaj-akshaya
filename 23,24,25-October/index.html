@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#4d0e1b">
+<title>Yuvaraaj & Akshaya — Our Wedding</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Great+Vibes&family=Marcellus&family=Parisienne&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="locked">
+
+<div class="envelope-screen" id="envelopeScreen">
+  <div class="envelope" id="envelope">
+    <div class="envelope-body">
+      <button class="seal" id="sealButton" aria-label="Open invitation"><span class="seal-flourish top">✿</span><span class="seal-monogram">Y<i>&</i>A</span><span class="seal-flourish bottom">✿</span></button><p>With love, we invite you</p>
+    </div>
+    <div class="envelope-flap"></div>
+    <div class="invitation-card">
+      <div class="card-border">
+        <span class="ornament">✦</span>
+        <p class="eyebrow">With the blessings of our families</p>
+        <h1>Yuvaraaj & Akshaya</h1>
+        <p class="invite-line">joyfully invite you to celebrate<br>the beginning of our forever</p>
+        <p class="card-date">23 · 24 · 25 October 2026</p><p class="card-place">Chennai</p>
+        <span class="ornament">❈</span>
+      </div>
+    </div>
+  </div>
+  <p class="open-hint" id="openHint">Tap the seal to open</p>
+  <audio id="bgMusic" src="audio/song.mp3" loop preload="none"></audio>
+</div>
+
+<button class="sound-toggle" id="soundToggle" aria-label="Toggle music" hidden>♪</button>
+
+<header class="site-nav">
+  <a class="brand" href="#home">A <span>&</span> Y</a>
+  <nav><a href="#story">Story</a><a href="#events">Events</a></nav>
+</header>
+
+<main>
+<section class="hero reveal" id="home">
+  <div class="motif motif-left">✺</div><div class="hero-copy">
+    <p class="eyebrow">Our wedding celebration</p><h2>Yuvaraaj</h2><h3><i>&</i></h3><h2>Akshaya</h2>
+    <div class="gold-rule"></div><p class="hero-date">25 · 10 · 2026</p>
+    <p class="hero-note">Three days. Three celebrations.<br>One beautiful beginning.</p>
+  </div><div class="motif motif-right">✺</div><div class="kolam">◇ ◇ ◇</div>
+</section>
+
+<section class="story section reveal" id="story">
+  <div class="section-label">01 / Story</div><div class="story-grid">
+    <div><h3>Sometimes, destiny<br><i>works quietly.</i></h3></div>
+    <div class="story-copy"><p>A series of tiny coincidences, unexpected moments, and choices somehow lead us exactly where we're meant to be.</p>
+    <p>We didn't know it then, but every little “what ifs” was leading us to each other.</p><div class="tiny-ornament">❈</div></div>
+    <div class="story-photo"><img src="images/couple-stairs.jpeg" alt="Akshaya and YuvaraaJ"></div>
+  </div>
+</section>
+
+<section class="events section reveal" id="events">
+  <div class="section-label">02 / Events</div><div class="section-heading"><p class="eyebrow">Come celebrate with us</p><h3>Three chapters of <i>joy</i></h3></div>
+  <div class="event-grid">
+    <article class="event-card sangeet"><div class="event-texture bokeh-texture"></div><p class="event-tagline-small">Good Company. Great Music.<br>Questionable Moves.</p>
+      <div class="event-spacer"></div><p class="event-kicker">The night before forever</p><h4>Sangeet</h4>
+      <div class="event-datetime-big"><span class="event-date">23 OCT 2026</span><span class="event-time">05:00 PM Onwards</span></div>
+      <p class="dress-code">If you're wondering what to wear: <br><i>Pastel Indo-Western</i> would be lovely.</p>
+      <div class="event-venue">21 Century Event Space<br>Sholinganallur, Chennai<br><a class="card-map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=21+Century+Event+Space+Sholinganallur+Chennai">Open in Google Maps ↗</a></div></article>
+    <article class="event-card reception"><div class="event-texture floral-texture"></div><p class="event-tagline-small">Join us as we celebrate<br>love, family and new beginnings.</p>
+      <div class="event-spacer"></div><p class="event-kicker">An evening of celebration</p><h4>Reception</h4>
+      <div class="event-datetime-big"><span class="event-date">24 OCT 2026</span><span class="event-time">06:00 PM Onwards</span></div><div class="event-venue">Shree Geetha Bhavan<br>Gopalapuram, Chennai<br><a class="card-map-button" target="_blank" rel="noopener" href="https://maps.app.goo.gl/RfTNdbBHobpae8vCA?g_st=ic">Open in Google Maps ↗</a></div></article>
+    <article class="event-card muhurtham"><div class="event-texture kolam-texture"></div><p class="event-tagline-small">With blessings, rituals and<br>the promise of a lifetime together.</p>
+      <div class="event-spacer"></div><p class="event-kicker">The auspicious beginning</p><h4>Muhurtham</h4>
+      <div class="event-datetime-big"><span class="event-date">25 OCT 2026</span><span class="event-time">07:31 AM - 09:00 AM</span></div><div class="event-venue">Shree Geetha Bhavan<br>Gopalapuram, Chennai<br><a class="card-map-button" target="_blank" rel="noopener" href="https://maps.app.goo.gl/RfTNdbBHobpae8vCA?g_st=ic">Open in Google Maps ↗</a></div></article>
+  </div>
+</section>
+
+<section class="countdown section reveal">
+  <div class="countdown-grid"><div><strong id="days">—</strong><span>Days</span></div><div><strong id="hours">—</strong><span>Hours</span></div>
+  <div><strong id="minutes">—</strong><span>Minutes</span></div><div><strong id="seconds">—</strong><span>Seconds</span></div></div> <br><br>
+  <p class="eyebrow">Until we tie the knot</p>
+</section>
+
+<section class="closing reveal"><div class="closing-ornament">❈</div><p>We can't wait to celebrate<br>these beautiful days with you.</p>
+<h4><i>See you at the wedding!</i></h4><div class="closing-ornament">❈</div></section>
+</main>
+<script src="js/script.js"></script>
+</body></html>
